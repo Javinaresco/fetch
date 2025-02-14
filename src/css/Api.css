@@ -1,0 +1,56 @@
+body{
+    background-image: url("../assets/GettyImages-623368750-e1582816063521-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.light {
+    --background-color: white;
+    --text-color: black; /* Text color for light theme */
+    --button-color:chocolate;
+    --h1-color:aquamarine;
+}
+  
+  /* Dark Theme */
+.dark {
+    --background-color: black;
+    --text-color: white; /* Text color for dark theme */
+    --button-color:grey;
+    --h1-color:darkblue;
+}
+.Tod{
+    color: var(--text-color);
+    margin-left:5vw;
+    margin-right:5vw;
+    margin-top:2vw;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.Tod>h1{
+    padding-bottom: 2vw;
+    font-size: 3vw;
+    color: var(--h1-color);
+}
+
+.Tod>p{
+    font-size: 2vw;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.Tod>button{
+    margin-top: 1vw;
+    width: 20vw;
+    background-color: var(--button-color);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+@media screen and (max-width: 768px) {
+    body{
+        background-image: url("../assets/gato-en-la-nieve-10504.jpg");
+    }
+  }

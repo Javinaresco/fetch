@@ -1,0 +1,52 @@
+.light {
+    --background-color: white;
+    --text-color: black; /* Text color for light theme */
+    --button-color:chocolate;
+    --h1-color:aquamarine;
+}
+  
+  /* Dark Theme */
+.dark {
+    --background-color: black;
+    --text-color: white; /* Text color for dark theme */
+    --button-color:grey;
+    --h1-color:darkblue;
+}
+
+.formul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 25vw;
+    margin-right: 30vw;
+    margin-top: 1vw;
+}
+label{
+    color:var(--h1-color);
+    font-size: medium;
+}
+.mb-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-label {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 0;
+}
+
+.form-control {
+    padding: 8px;
+    font-size: 1rem;
+    background-color: var(--background-color);
+}
+
+.formul>button{
+    height: 2vw;
+    background-color:var(--button-color);
+    font-weight: bold;
+    font-size: large;
+}

@@ -1,0 +1,40 @@
+.light {
+    --background-color: white;
+    --text-color: black; /* Text color for light theme */
+    --button-color:chocolate;
+    --h1-color:aquamarine;
+}
+.dark {
+    --background-color: black;
+    --text-color: white; /* Text color for dark theme */
+    --button-color:grey;
+    --h1-color:darkblue;
+}
+
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  align-items: center; 
+  padding: 10vw; /* Add padding to the container */
+}
+
+@media (max-width: 768px) { 
+  .Container {
+    flex-direction: column;
+    align-items: center; /* Center vertically */
+    padding: 20px; /* Add padding to the container */
+  }
+
+  .Container > div { /* Add space between vertically stacked divs */
+    margin-bottom: 20px; 
+  }
+}
+.boton, .b2, .b3 {
+    background-color:var(--button-color); /* Blue button background */
+    color: var(--text-color); /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }

@@ -1,0 +1,40 @@
+.red{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:20vw;
+    margin-right:30vw ;
+}
+.light {
+    --background-color: white;
+    --text-color: black; /* Text color for light theme */
+    --button-color:chocolate;
+    --h1-color:aquamarine;
+}
+  
+  /* Dark Theme */
+.dark {
+    --background-color: black;
+    --text-color: white; /* Text color for dark theme */
+    --button-color:grey;
+    --h1-color:darkblue;
+}
+/* Button styles */
+.btn,
+.btn2,
+.btn-El,
+.btn-add {
+  background-color: var(--button-color); /* Brown button background */
+  color: var(--text-color); /* White text for buttons */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 5px;
+}
+th {
+    color: var(--h1-color); /* Light gray background for table headers */
+}
+h3{
+    color: var(--h1-color);
+}

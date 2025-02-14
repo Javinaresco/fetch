@@ -1,0 +1,23 @@
+
+.light {
+    --background-color: white;
+    --text-color: black; /* Text color for light theme */
+    --button-color:chocolate;
+    --h1-color:aquamarine;
+}
+  
+  /* Dark Theme */
+.dark {
+    --background-color: black;
+    --text-color: white; /* Text color for dark theme */
+    --button-color:grey;
+    --h1-color:darkblue;
+}
+
+.men{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: lighter;
+    margin-top: 9vw;
+    color:var(--h1-color);
+}
