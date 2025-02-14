@@ -1,7 +1,7 @@
 import "../css/NavBar.css";
 import { NavLink } from "react-router-dom";
 import { useTheme } from "./Context/ThemeContext";
-import Sun from "../assets/sun.png";
+import Sun from "../assets/Sun.png";
 import Moon from "../assets/moon.png";
 import { useState, useRef, useEffect } from "react";
 import { InstantSearch, SearchBox, Hits } from "react-instantsearch-dom";
