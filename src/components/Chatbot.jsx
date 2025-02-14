@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "../css/Chatbox.css";
+import "../css/ChatBox.css";
 
 export const Chatbot = () => {
   const [messages, setMessages] = useState([
